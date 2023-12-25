@@ -1,0 +1,99 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #EFDFC6; /* Light Brown Background */
+  color: #4E3004; /* Dark Brown Text */
+}
+
+header {
+  background-color: #000080; /* Dark Blue Background */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #A9734F; /* Dark Brown Navigation Bar */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for navigation links */
+nav a {
+  text-decoration: none;
+  color: #000080; /* Dark Blue Text */
+  font-weight: bold; /* Bold Font */
+}
+
+/* Style for navigation links on hover */
+nav a:hover {
+  color: #0000CD; /* Darker Blue on Hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #000080; /* Dark Blue Footer */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  color: #000080; /* Dark Blue Headings */
+}
+
+/* Additional style for staff section */
+.staff-section {
+  width: 100%;
+}
+
+/* Style for staff table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px solid #000080; /* Dark Blue Table Border */
+}
+
+th, td {
+  border: 1px solid #000080; /* Dark Blue Borders for Table Cells */
+  padding: 8px;
+  text-align: left;
+  color:#8b4513; /* Light Yellowish Text Color */
+}
+
+th {
+  background-color: #000080; /* Dark Blue Table Headings */
+  color: white;
+}
+h2 {
+  color: #000080; /* Dark Blue Headings */
+  text-align: center; /* Center the subheadings */
+  font-weight: bold; /* Bold Font */
+  font-size: 1.5em; /* Set the font size for subheadings */
+}

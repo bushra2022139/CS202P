@@ -1,0 +1,82 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #EFDFC6; /* Light Brown Background */
+  color: #4E3004; /* Dark Brown Text */
+}
+header {
+  background-color: #000080; /* Dark Blue Background for the Header */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #A9734F; /* Dark Brown Navigation Bar */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for navigation links */
+nav a {
+  text-decoration: none;
+  color: #000080; /* Dark Blue Text */
+  font-weight: bold; /* Bold Font */
+}
+
+/* Style for navigation links on hover */
+nav a:hover {
+  color: #0000CD; /* Darker Blue on Hover */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.picture-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.picture-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.picture-item img {
+  width: 300px; /* Adjust the width of the images */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #000080; /* Dark Blue Footer */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  color: #000080; /* Dark Blue Headings */
+font-weight: bold;
+}

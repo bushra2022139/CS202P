@@ -1,0 +1,204 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#EFDFC6; /* Light Brown Background */
+  color: #4E3004; /* Dark Brown Text */
+}
+
+header {
+  background-color: #000080; /* Dark Blue Background for the Header */
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color:#A9734F; /* Dark Brown Navigation Bar */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style for navigation links */
+nav a {
+  text-decoration: none;
+  color: #000080; /* Dark Blue Text */
+  font-weight: bold; /* Bold Font */
+}
+
+/* Style for navigation links on hover */
+nav a:hover {
+  color: #0000CD; /* Darker Blue on Hover */
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #000080; /* Dark Blue Footer */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  color: #000080; /* Dark Blue Headings */
+}
+
+.video-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  background-color: #8b4513; /* Dark Brown Background */
+  padding: 40px; /* Add padding for a denser look */
+}
+
+.video-container {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+/* Modified style for video */
+.video {
+  margin-right: 200px;
+  max-width: 100%;
+}
+
+/* Modified style for video description */
+.video-description {
+  max-width: 1000px;
+  text-align: center;
+}
+
+.video-heading {
+  font-size: 1.5em; /* Increase font size for better visibility */
+  text-align: center; /* Center the text */
+  font-weight: bold; /* Bold Font */
+  margin: 0 auto 50px; /* Center and add margin to the bottom */
+}
+
+/* Modified style for services section */
+.services-section {
+  width: 100%;
+}
+
+/* Modified style for the image slider */
+.slider-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slider-content {
+  display: flex;
+  transition: transform 1s ease-in-out;
+}
+
+.slider-item {
+  min-width: 33.33%;
+  box-sizing: border-box;
+}
+
+.slider-item img {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.picture-row-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* New style for the picture-row */
+.picture-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Style for individual images in the picture-row */
+.picture-row img {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+}
+
+.picture-row img {
+  width: 200px;
+  height: auto;
+  transition: width 0.3s ease;
+}
+
+.picture-row img:hover {
+  width: 400px;
+}
+
+.incharge-section {
+  margin-top: 20px;
+  text-align: center;
+ background-color: #8b4513; /* Dark Brown Background */
+  padding: 20px; /* Add padding for a denser look */
+}
+
+.incharge-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.incharge-content img {
+  width: 30%;
+  max-width: 100%;
+  margin-bottom: 20px;
+ background-color: #A9734F; /* Dark Brown Background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.incharge-content p {
+  max-width: 1000px;
+  text-align: left;
+}
+
+.picture-row p {
+  color: #654321; /* Dark Brown Text */
+}
+h1 {
+  color: #E7DBC8; /* White Heading Text */
+}
+h2 {
+  color: #000080; /* Dark Blue Headings */
+  text-align: center; /* Center the subheadings */
+  font-weight: bold; /* Bold Font */
+  font-size: 1.5em; /* Set the font size for subheadings */
+}

@@ -1,0 +1,115 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ background-color:#EFDFC6; /* Light Brown Background */
+  color: #4E3004; /* Dark Brown Text */
+}
+
+header {
+  background-color: #000080; /* Dark Blue Background */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #000080; /* Dark Blue Background */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h2 {
+  color: #333;
+}
+
+/* New styling for image section */
+.image-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-section div {
+  width: 18%;
+  text-align: center;
+}
+
+.image-section img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.image-description {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px solid #A9734F; /* Dark Blue Table Border */
+}
+
+th, td {
+  border: 1px solid  #A9734F; /* Dark Blue Borders for Table Cells */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #A9734F; /* Dark Blue Table Headings */
+  color: #00087E;
+}
+
+
+.video-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left; /* Align the text to the left */
+}
+
+.video-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row; /* Change the direction to row */
+  align-items: center;
+  width: 100%; /* Make each container take the full width */
+}
+
+.video {
+  margin-right: 200px; /* Add some margin between video and description */
+}
+
+.video-description {
+  max-width: 400px; /* Adjust the width as needed */
+  text-align: left;
+}
+
+.video-heading {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}
+h1 {
+  color: #E7DBC8; /* White Heading Text */
+}
+h2 {
+  color: #000080; /* Dark Blue Subheadings */
+}
+h2 {
+  color: #000080; /* Dark Blue Headings */
+  text-align: center; /* Center the subheadings */
+  font-weight: bold; /* Bold Font */
+  font-size: 1.5em; /* Set the font size for subheadings */
+}
